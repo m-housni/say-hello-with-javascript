@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt</title>
+</head>
+<body>
+   
+   <p id="sayHello"></p>
+   
+   <script>
+   var yourName = prompt("What's your name?");
+       if(yourName!=""){
+           document.getElementById("sayHello").innerHTML = "Hello " + yourName;
+       }
+       else{
+           alert("/!\ You didn't enter your name");
+       }
+   </script>
+    
+</body>
+</html>
